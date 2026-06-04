@@ -14,7 +14,7 @@ export default function Footer() {
         </Link>
 
         <p className="text-xl text-text-muted mb-8 max-w-2xl mx-auto font-serif italic">
-          &quot;عنصر ثروت، به تسخیر درآمده.&quot;
+          &quot;تسلط بر عنصر ثروت&quot;
         </p>
 
         <div className="flex flex-col items-center justify-center mb-10">
