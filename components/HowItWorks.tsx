@@ -5,26 +5,26 @@ import { motion } from "framer-motion";
 export default function HowItWorks() {
   const steps = [
     {
-      number: "01",
-      title: "Create Broker Account",
-      description: "Register with our exclusive partner broker to ensure seamless trade execution and low latency.",
+      number: "۰۱",
+      title: "ایجاد حساب بروکر",
+      description: "برای اطمینان از اجرای روان معاملات و تاخیر (Latency) پایین، در کارگزاری شریک انحصاری ما ثبت‌نام کنید.",
       link: "https://mygtcportal.com/getview?view=register&token=Ai9beowwqowwwwww",
-      linkText: "Register"
+      linkText: "ثبت‌نام"
     },
     {
-      number: "02",
-      title: "Fund Wallet",
-      description: "Minimum required capital is $100 to maintain adequate margin for our risk management",
+      number: "۰۲",
+      title: "شارژ کیف پول",
+      description: "حداقل سرمایه مورد نیاز ۱۰۰ دلار است تا مارجین کافی برای مدیریت ریسک ما حفظ شود.",
       link: "https://mygtcfx.com/getview?view=fund/deposit",
-      linkText: "Fund"
+      linkText: "شارژ حساب"
     },
 
     {
-      number: "03",
-      title: "Connect to Master Account",
-      description: "Link your account to our master algorithm via the copy portal and mirror trades automatically.",
+      number: "۰۳",
+      title: "اتصال به حساب مستر",
+      description: "حساب خود را از طریق پورتال کپی به الگوریتم مستر ما متصل کنید و معاملات را به طور خودکار کپی نمایید.",
       link: "https://gtccopy.com/portal/registration/subscription/86494/magicfx",
-      linkText: "Connect"
+      linkText: "اتصال"
     },
   ];
 
@@ -38,7 +38,7 @@ export default function HowItWorks() {
         className="text-center mb-20"
       >
         <h2 className="font-serif text-4xl md:text-5xl text-accent-gradient inline-block pb-4 border-b border-glass-border">
-          How It Works
+          چگونه کار می‌کند
         </h2>
       </motion.div>
 

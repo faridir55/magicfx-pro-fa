@@ -17,10 +17,10 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "How it works", href: "/#how-it-works" },
-    { name: "Performance", href: "/#performance" },
-    { name: "Tutorials", href: "/tutorials" },
-    { name: "Blog", href: "/blog" },
+    { name: "چگونه کار می‌کند", href: "/#how-it-works" },
+    { name: "عملکرد", href: "/#performance" },
+    { name: "آموزش‌ها", href: "/tutorials" },
+    { name: "وبلاگ", href: "/blog" },
   ];
 
   return (
@@ -42,7 +42,7 @@ export default function Navbar() {
           </Link>
 
           {/* Desktop Nav */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <Link
                 key={link.name}
@@ -67,7 +67,7 @@ export default function Navbar() {
 
       {/* Mobile Nav */}
       <div
-        className={`fixed inset-0 bg-bg-color flex flex-col items-center justify-center space-y-8 transition-transform duration-500 ease-in-out z-40 ${isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
+        className={`fixed inset-0 bg-bg-color flex flex-col items-center justify-center gap-8 transition-transform duration-500 ease-in-out z-40 ${isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
           }`}
       >
         {navLinks.map((link) => (

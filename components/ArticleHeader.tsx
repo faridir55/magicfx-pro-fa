@@ -31,7 +31,7 @@ export function ArticleHeader({ frontmatter }: ArticleHeaderProps) {
         {frontmatter.excerpt}
       </p>
       
-      <div className="h-px w-full bg-gradient-to-r from-accent-color/50 via-accent-color/10 to-transparent"></div>
+      <div className="h-px w-full bg-gradient-to-l from-accent-color/50 via-accent-color/10 to-transparent"></div>
     </header>
   );
 }

@@ -4,7 +4,7 @@ export function RiskNote({ children }: { children: React.ReactNode }) {
   return (
     <div className="my-8 p-6 rounded-2xl border border-accent-color/30 bg-accent-color/5 flex flex-col not-prose">
       <span className="text-[10px] font-bold uppercase tracking-widest text-accent-color/80 mb-2">
-        Risk Note
+        یادداشت ریسک
       </span>
       <div className="text-sm text-text-muted leading-relaxed">
         {children}

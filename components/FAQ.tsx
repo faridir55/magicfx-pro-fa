@@ -9,24 +9,24 @@ export default function FAQ() {
 
   const faqs = [
     {
-      question: "What is the minimum amount to start copying?",
-      answer: "The minimum capital required is $100. This ensures safe lot sizing and proper risk management on your account.",
+      question: "حداقل موجودی برای شروع کپی‌تریدینگ چقدر است؟",
+      answer: "حداقل سرمایه مورد نیاز ۱۰۰ دلار است. این موضوع حجم‌گذاری ایمن و مدیریت ریسک مناسب را در حساب شما تضمین می‌کند.",
     },
     {
-      question: "Do I need any trading experience?",
-      answer: "No experience is needed. Once you subscribe, the algorithm trades automatically on your behalf — you don't need to monitor charts or place any orders manually.",
+      question: "آیا نیاز به تجربه معامله‌گری دارم؟",
+      answer: "خیر، نیازی به تجربه نیست. پس از اشتراک، الگوریتم به طور خودکار از طرف شما معامله می‌کند؛ نیازی به بررسی نمودارها یا ثبت سفارش به صورت دستی ندارید.",
     },
     {
-      question: "Do I need to keep my computer on?",
-      answer: "No. The strategy runs on our servers 24/5. Your computer can be completely off and trades will still execute normally.",
+      question: "آیا باید کامپیوترم را روشن نگه دارم؟",
+      answer: "خیر. این استراتژی ۲۴ ساعت شبانه‌روز و ۵ روز هفته روی سرورهای ما اجرا می‌شود. کامپیوتر شما می‌تواند کاملاً خاموش باشد و معاملات همچنان به طور عادی انجام خواهند شد.",
     },
     {
-      question: "Can I withdraw my funds at any time?",
-      answer: "Yes. Your funds are held in your own GTC brokerage account and are never locked. You can withdraw at any time without penalties.",
+      question: "آیا می‌توانم در هر زمان سرمایه خود را برداشت کنم؟",
+      answer: "بله. سرمایه شما در حساب بروکر GTC خودتان نگهداری می‌شود و هرگز قفل نمی‌شود. شما می‌توانید در هر زمان و بدون جریمه آن را برداشت کنید.",
     },
     {
-      question: "How does the performance fee work?",
-      answer: "A performance fee is only charged on profits. If the strategy does not generate returns, you pay nothing. Full fee details are available on the strategy profile page.",
+      question: "کارمزد عملکرد (Performance Fee) چگونه محاسبه می‌شود؟",
+      answer: "کارمزد عملکرد فقط از سودهای کسب‌شده کسر می‌شود. اگر استراتژی بازدهی نداشته باشد، هیچ کارمزدی پرداخت نمی‌کنید. جزئیات کامل کارمزد در صفحه پروفایل استراتژی موجود است.",
     },
   ];
 
@@ -40,7 +40,7 @@ export default function FAQ() {
         className="text-center mb-16"
       >
         <h2 className="font-serif text-4xl md:text-5xl text-accent-gradient inline-block pb-4 border-b border-glass-border">
-          Frequently Asked Questions
+          سوالات متداول
         </h2>
       </motion.div>
 
@@ -56,7 +56,7 @@ export default function FAQ() {
           >
             <button
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
-              className="w-full px-6 py-5 flex justify-between items-center text-left hover:bg-white/5 transition-colors"
+              className="w-full px-6 py-5 flex justify-between items-center text-right hover:bg-white/5 transition-colors"
             >
               <span className="font-medium text-lg text-accent-color">{faq.question}</span>
               {openIndex === index ? (

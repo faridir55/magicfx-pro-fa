@@ -7,18 +7,18 @@ export default function CoreValues() {
   const values = [
     {
       icon: <Cpu size={40} className="text-accent-color mb-6" />,
-      title: "Algorithmic Precision",
-      description: "Data-driven execution with zero emotional interference, capturing optimal XAU/USD movements.",
+      title: "دقت الگوریتمی",
+      description: "اجرای مبتنی بر داده بدون هیچ‌گونه دخالت احساسی، برای شکار بهترین حرکات طلا (XAU/USD).",
     },
     {
       icon: <Shield size={40} className="text-accent-color mb-6" />,
-      title: "Risk Management",
-      description: "Strict drawdown limits and dynamic lot sizing to protect your capital in volatile markets.",
+      title: "مدیریت ریسک",
+      description: "حدود سخت‌گیرانه برای افت سرمایه و حجم‌گذاری پویا جهت محافظت از سرمایه شما در بازارهای پرنوسان.",
     },
     {
       icon: <TrendingUp size={40} className="text-accent-color mb-6" />,
-      title: "Consistent Growth",
-      description: "Engineered for steady, compounding returns over the long term, avoiding high-risk gambles.",
+      title: "رشد مستمر",
+      description: "طراحی‌شده برای سودهای مستمر و مرکب در بلندمدت، به دور از شرط‌بندی‌های پرریسک.",
     },
   ];
 

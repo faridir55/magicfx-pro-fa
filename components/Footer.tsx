@@ -14,11 +14,11 @@ export default function Footer() {
         </Link>
 
         <p className="text-xl text-text-muted mb-8 max-w-2xl mx-auto font-serif italic">
-          &quot;The Element of Wealth, Mastered.&quot;
+          &quot;عنصر ثروت، به تسخیر درآمده.&quot;
         </p>
 
         <div className="flex flex-col items-center justify-center mb-10">
-          <h4 className="text-sm uppercase tracking-widest text-text-muted mb-4">Contact Us</h4>
+          <h4 className="text-sm uppercase tracking-widest text-text-muted mb-4">تماس با ما</h4>
           <a
             href="https://wa.me/+15019144353"
             target="_blank"
@@ -26,11 +26,18 @@ export default function Footer() {
             className="inline-flex items-center gap-2 px-6 py-3 border border-[#25D366]/40 rounded-full text-[#25D366] hover:bg-[#25D366] hover:text-white transition-all duration-300 mb-6"
           >
             <MessageCircle size={20} />
-            <span className="font-medium">WhatsApp Us</span>
+            <span className="font-medium">ارتباط از طریق واتس‌اپ</span>
           </a>
 
           {/* Language Switcher */}
           <div className="flex items-center gap-4 text-xs tracking-widest uppercase">
+            <a
+              href="https://magicfx.pro"
+              className="font-medium text-text-muted hover:text-text-color transition-colors duration-300 border-b border-transparent hover:border-text-muted/40 pb-0.5"
+            >
+              English (EN)
+            </a>
+            <span className="text-text-muted/20">|</span>
             <a
               href="https://tr.magicfx.pro"
               className="font-medium text-text-muted hover:text-text-color transition-colors duration-300 border-b border-transparent hover:border-text-muted/40 pb-0.5"
@@ -39,20 +46,20 @@ export default function Footer() {
             </a>
             <span className="text-text-muted/20">|</span>
             <a
-              href="https://magicfx.pro"
+              href="https://fa.magicfx.pro"
               className="font-semibold text-accent-color transition-colors duration-300 border-b border-accent-color pb-0.5"
             >
-              English (EN)
+              فارسی (FA)
             </a>
           </div>
         </div>
 
         <div className="border-t border-white/5 pt-10 mt-10">
           <p className="text-xs text-text-muted/60 leading-relaxed max-w-3xl mx-auto mb-6">
-            <strong className="text-text-muted">RISK DISCLOSURE:</strong> Trading foreign exchange and precious metals on margin carries a high level of risk and may not be suitable for all investors. The high degree of leverage can work against you as well as for you. Past performance is not indicative of future results. Before deciding to invest in foreign exchange or copy trading, you should carefully consider your investment objectives, level of experience, and risk appetite.
+            <strong className="text-text-muted">هشدار ریسک:</strong> معامله در بازار ارزهای خارجی و فلزات گرانبها با اعتبار معاملاتی (مارجین) دارای سطح بالایی از ریسک است و ممکن است برای همه سرمایه‌گذاران مناسب نباشد. اهرم بالایی که در معامله استفاده می‌شود، می‌تواند هم به نفع شما و هم به ضرر شما عمل کند. عملکرد گذشته تضمینی برای نتایج آینده نیست. قبل از تصمیم‌گیری برای سرمایه‌گذاری در بازار ارزهای خارجی یا کپی‌تریدینگ، باید اهداف سرمایه‌گذاری، سطح تجربه و میزان ریسک‌پذیری خود را به دقت ارزیابی کنید.
           </p>
           <p className="text-xs text-text-muted/40">
-            &copy; {new Date().getFullYear()} Magic FX Pro. All rights reserved.
+            &copy; {new Date().getFullYear()} Magic FX Pro. تمامی حقوق محفوظ است.
           </p>
         </div>
       </div>

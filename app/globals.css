@@ -7,8 +7,8 @@
   --color-text-color: #fafafa;
   --color-text-muted: #a0a0a0;
 
-  --font-sans: var(--font-montserrat);
-  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-vazirmatn);
+  --font-serif: var(--font-markazi);
 
   --color-glass-bg: rgba(255, 255, 255, 0.03);
   --color-glass-border: rgba(210, 159, 81, 0.15);
@@ -41,7 +41,7 @@
   .article-prose h1,
   .article-prose h2,
   .article-prose h3 {
-    font-family: var(--font-playfair);
+    font-family: var(--font-serif);
     color: var(--color-text-color);
   }
 
@@ -83,13 +83,13 @@
   }
 
   .article-prose blockquote {
-    border-left: 2px solid var(--color-accent-color);
+    border-right: 2px solid var(--color-accent-color);
     background-color: rgba(210, 159, 81, 0.05);
     padding: 1rem 2rem;
-    border-top-right-radius: 0.75rem;
-    border-bottom-right-radius: 0.75rem;
+    border-top-left-radius: 0.75rem;
+    border-bottom-left-radius: 0.75rem;
     color: var(--color-text-color);
-    font-family: var(--font-playfair);
+    font-family: var(--font-serif);
     font-style: italic;
     font-size: 1.25rem;
     margin-top: 3rem;
@@ -100,7 +100,7 @@
   .article-prose ol {
     margin-top: 2rem;
     margin-bottom: 2rem;
-    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 
   .article-prose ul {
@@ -156,7 +156,7 @@
     border-collapse: collapse;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    text-align: left;
+    text-align: right;
   }
 
   .article-prose th {

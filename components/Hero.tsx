@@ -21,7 +21,7 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="font-serif text-5xl md:text-7xl lg:text-8xl mb-6 text-accent-gradient tracking-tight"
         >
-          Master the Element of Wealth
+          تسلط بر عنصر ثروت
         </motion.h1>
 
         <motion.p
@@ -30,8 +30,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
           className="text-lg md:text-xl text-text-muted mb-12 max-w-2xl mx-auto"
         >
-          Elite algorithmic copy trading specializing exclusively in Gold
-          (XAU/USD).
+          کپی‌تریدینگ الگوریتمی پیشرفته، به طور انحصاری روی طلا (XAU/USD).
         </motion.p>
 
         <motion.div
