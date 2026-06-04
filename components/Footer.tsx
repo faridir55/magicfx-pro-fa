@@ -13,7 +13,7 @@ export default function Footer() {
           />
         </Link>
 
-        <p className="text-xl text-text-muted mb-8 max-w-2xl mx-auto font-serif italic">
+        <p className="text-xl text-text-muted mb-8 max-w-2xl mx-auto font-serif ">
           &quot;تسلط بر عنصر ثروت&quot;
         </p>
 
