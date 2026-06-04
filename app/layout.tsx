@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Vazirmatn, Markazi_Text } from "next/font/google";
+import { Vazirmatn } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import ScrollToHash from "@/components/ScrollToHash";
 import { Analytics } from "@vercel/analytics/react";
@@ -10,10 +11,9 @@ const vazirmatn = Vazirmatn({
   weight: ["300", "400", "500", "600", "700"],
 });
 
-const markazi = Markazi_Text({
-  variable: "--font-markazi",
-  subsets: ["arabic"],
-  weight: ["400", "500", "600", "700"],
+const niloofar = localFont({
+  src: "../public/fonts/XB-Niloofar.ttf",
+  variable: "--font-niloofar",
 });
 
 export const metadata: Metadata = {
@@ -44,7 +44,7 @@ export default function RootLayout({
     <html
       lang="fa"
       dir="rtl"
-      className={`${vazirmatn.variable} ${markazi.variable} h-full antialiased scroll-smooth scroll-pt-32`}
+      className={`${vazirmatn.variable} ${niloofar.variable} h-full antialiased scroll-smooth scroll-pt-32`}
     >
       <body className="min-h-full flex flex-col bg-bg-color text-text-color font-sans overflow-x-hidden selection:bg-accent-color selection:text-bg-color">
         <ScrollToHash />

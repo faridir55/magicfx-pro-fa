@@ -4,6 +4,14 @@ import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
+function toFarsiNumber(n: string | number): string {
+  const farsiDigits = ["۰", "۱", "۲", "۳", "۴", "۵", "۶", "۷", "۸", "۹"];
+  return n
+    .toString()
+    .replace(/[0-9]/g, (w) => farsiDigits[parseInt(w)])
+    .replace(/\./g, "٫");
+}
+
 export default function Performance() {
   const [metrics, setMetrics] = useState({
     totalReturn: "26.22",
@@ -105,9 +113,9 @@ export default function Performance() {
               ) : (
                 <>
                   <span className="font-serif text-6xl md:text-7xl font-bold">
-                    {metrics.totalReturn}
+                    {toFarsiNumber(metrics.totalReturn)}
                   </span>
-                  <span className="text-2xl">%</span>
+                  <span className="text-2xl">٪</span>
                 </>
               )}
             </div>
@@ -151,9 +159,9 @@ export default function Performance() {
                 ) : (
                   <>
                     <span className="font-serif text-4xl font-bold">
-                      {metric.value}
+                      {toFarsiNumber(metric.value)}
                     </span>
-                    <span className="text-lg">%</span>
+                    <span className="text-lg">٪</span>
                   </>
                 )}
               </div>
