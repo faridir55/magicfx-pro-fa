@@ -21,6 +21,7 @@ export default function Navbar() {
     { name: "عملکرد", href: "/#performance" },
     { name: "آموزش‌ها", href: "/tutorials" },
     { name: "وبلاگ", href: "/blog" },
+    { name: "درباره ما", href: "/about" },
   ];
 
   return (
